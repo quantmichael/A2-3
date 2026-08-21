@@ -46,8 +46,5 @@ def create_tables():
     conn.commit()
     conn.close()
 
-    print("데이터베이스 테이블 생성 완료")
-
-
 if __name__ == "__main__":
     create_tables()
